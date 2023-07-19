@@ -144,12 +144,12 @@ table.dirlistertable tr.d td:nth-child(4) {
 }
 table.dirlistertable thead.header-1 tr.gradient-row th{
     position: sticky;
-    top: 44px;
+    top: 45px;
     z-index: 2; /* Aumentar el valor de z-index */
  }
 table.dirlistertable thead.header-1 tr.colnames th{
     position: sticky;
-    top: 125px; /* Aumentar el valor de top */
+    top: 155px; /* Aumentar el valor de top */
     z-index: 1;
 }
 #back-to-top {
