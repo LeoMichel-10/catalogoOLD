@@ -26,10 +26,32 @@ table.dirlistertable th {
 #buscador {
     box-sizing: border-box;
     width: 100%;
+    background-image: url(./img_lupa.png);
+    background-repeat: no-repeat;
+    background-size: 25px;
+    background-position: left;
+    background-position-x: 10px;
     background-color: transparent;
     font-size: 1.17em;
 	color:white; /* Cambiar color de texto */
 	font-size:24px; /* Aumentar tamaño de letra */
+}
+#buscador + span {
+    position: relative;
+    display: inline-block;
+}
+
+#buscador + span::before {
+    content: "";
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 25px;
+    height: 25px;
+    background-image: url(./img_lupa.png);
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 table.dirlistertable thead.header-1 th {
     background-color: #18CCDD;
