@@ -30,11 +30,6 @@ table.dirlistertable th {
     font-size: 1.17em;
     color:white; /* Cambiar color de texto */
     font-size:24px; /* Aumentar tamaño de letra */
-    padding-left: 5%;
-    background-image: url(./img_lupa.png);
-    background-repeat: no-repeat;
-    background-size: 25px;
-    background-position: center left 5px;
 }
 table.dirlistertable thead.header-1 th {
     background-color: #18CCDD;
